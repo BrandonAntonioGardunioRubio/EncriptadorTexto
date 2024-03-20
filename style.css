@@ -1,0 +1,79 @@
+*{
+    background: #f3f5fc;
+    font-family: 'Iter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 5%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.textarea{
+    border: none;
+    color: blue;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{color:blueviolet}
+.textarea:focus{
+    outline: none;
+}
+
+.mensaje{
+    background: white;
+    /*background-image: url(esperanding.png);*/
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: blue;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje:focus{
+    outline: none;
+}
+
+.btnDesencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24PX;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btnEncriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.informacion{
+    color: #495857;
+    font-size: 18px;
+}
+.btnCopiar{
+    display: flex;
+    margin-top: 18px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24PX;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;   
+}
